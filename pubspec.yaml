@@ -1,0 +1,42 @@
+name: basic_mobile
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0-42.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.3.7
+  flutter_launcher_icons: ^0.13.1
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/iconic.png
+  android: true
+  ios: true
+  web: true
+  fullscreen: true
+  android_gravity: center
+  ios_content_mode: scaleAspectFill
+  web_image_mode: center
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/iconic.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/iconic.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
